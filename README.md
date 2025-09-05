@@ -15,13 +15,12 @@ Display a summary (total lines and error lines)
 🛠 Requirements
 
 Python 3.x
-
 (No external libraries needed — only built-in Python features are used.)
 
 ▶️ Usage
 1. Prepare a log file
 
-Create a log file, for example sample.log
+Example sample.log:
 
 INFO - Service started
 ERROR - Database connection failed
@@ -50,22 +49,18 @@ sample.log → Your input log file
 
 errors_only.log → File containing only extracted error lines
 
-
-
 📂 Project Structure
+
 .
 ├── log_cleaner.py      # Main program
 ├── sample.log          # Example input log file
 └── README.md           # Project documentation
 
 
-
 🚀 Future Improvements
 
-Add support for filtering by warning or info messages
+Add support for filtering by WARNING or INFO messages
 
 Export results in CSV or JSON format
 
 Add visualization for error frequency over time
-
-
