@@ -58,11 +58,3 @@ errors_only.log → File containing only extracted error lines
 └── README.md           # Project documentation
 
 
-🚀 Future Improvements
-
-Add support for filtering WARNING or INFO messages
-
-Export results in CSV or JSON format
-
-Add visualization for error frequency over time
-
