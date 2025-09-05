@@ -1,26 +1,28 @@
-Log Cleaner
+# Log Cleaner
 
-A simple Python tool to analyze and clean log files by filtering out error messages.
+A simple Python tool to **analyze and clean log files** by extracting error messages.
 
-✨ Features
+---
 
-Load a log file into memory
+## ✨ Features
+- Load a log file into memory
+- Detect and extract lines containing `ERROR`
+- Save extracted errors into a new file
+- Display a summary (total lines and error lines)
 
-Detect and extract lines containing ERROR
+---
 
-Save extracted errors into a new file
+## 🛠 Requirements
+- Python 3.x
 
-Display a summary (total lines and error lines)
+> No external libraries are needed — only Python standard library.
 
-🛠 Requirements
+---
 
-Python 3.x
-(No external libraries needed — only built-in Python features are used.)
+## ▶️ Usage
 
-▶️ Usage
-1. Prepare a log file
-
-Example sample.log:
+### 1. Prepare a log file
+Example `sample.log`:
 
 INFO - Service started
 ERROR - Database connection failed
@@ -28,8 +30,8 @@ INFO - Retrying...
 ERROR - Timeout reached
 
 
-2. Run the program
-
+### 2. Run the program
+```bash
 python log_cleaner.py
 
 
@@ -45,12 +47,11 @@ python log_cleaner.py
 
 4. Output Files
 
-sample.log → Your input log file
+sample.log → Input log file
 
 errors_only.log → File containing only extracted error lines
 
 📂 Project Structure
-
 .
 ├── log_cleaner.py      # Main program
 ├── sample.log          # Example input log file
@@ -59,8 +60,9 @@ errors_only.log → File containing only extracted error lines
 
 🚀 Future Improvements
 
-Add support for filtering by WARNING or INFO messages
+Add support for filtering WARNING or INFO messages
 
 Export results in CSV or JSON format
 
 Add visualization for error frequency over time
+
