@@ -23,12 +23,12 @@ A simple Python tool to **analyze and clean log files** by extracting error mess
 
 ### 1. Prepare a log file
 Example `sample.log`:
-
+```markdown
 INFO - Service started
 ERROR - Database connection failed
 INFO - Retrying...
 ERROR - Timeout reached
-
+```
 
 ### 2. Run the program
 ```bash
