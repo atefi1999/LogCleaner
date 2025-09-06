@@ -33,28 +33,30 @@ ERROR - Timeout reached
 ### 2. Run the program
 ```bash
 python log_cleaner.py
+```
 
-
-3. Example Output
-
+### 3. Example Output
+```markdown
 ✅ File sample.log loaded successfully.
 🔎 Found 2 error lines.
 💾 Errors saved to errors_only.log.
 📊 File summary:
    Total lines: 4
    Error lines: 2
+```
 
-
-4. Output Files
-
+### 4. Output Files
+```markdown
 sample.log → Input log file
 
 errors_only.log → File containing only extracted error lines
-
-📂 Project Structure
+```
+---
+# 📂 Project Structure
+```backtick
 .
 ├── log_cleaner.py      # Main program
 ├── sample.log          # Example input log file
 └── README.md           # Project documentation
-
+```
 
