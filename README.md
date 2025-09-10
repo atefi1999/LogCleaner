@@ -52,7 +52,7 @@ sample.log → Input log file
 errors_only.log → File containing only extracted error lines
 ```
 ---
-# 📂 Project Structure
+## 📂 Project Structure
 ```backtick
 .
 ├── log_cleaner.py      # Main program
